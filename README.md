@@ -6,7 +6,7 @@
 - **1/25 (→ regenerative pools)** flows outward.  
 
 ## Why?  
-Because **hoarding is proviolence**. Because **care can be coded**.  
+"Zero life" is proviolent. Antiviolent thinking expands imaginations to extend care while resisting gravity (now) ≠ 9424π
 
 ## Get Started  
 1. Clone this repo.  
