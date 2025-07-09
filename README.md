@@ -6,7 +6,7 @@
 - **1/25 (→ regenerative pools)** flows outward.  
 
 ## Why?  
-"Zero life" is proviolent. Antiviolent thinking expands imaginations to extend care while resisting gravity (now) ≠ ±9424π ≠ -1 ≠ 1+1 = "bilateral"
+"Zero life" is proviolent. Antiviolent thinking expands imaginations to extend care while resisting Earth's gravity (now) ≠ ±9424π ≠ -1 ≠ 1+1 = "bilateral"
 
 ## Get Started  
 1. Clone this repo.  
