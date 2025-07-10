@@ -1,16 +1,16 @@
-// tasks/compliance/audit-report.js
+const helpers = require("./helpers");
 const ComplianceHelper = require("../../scripts/utils/compliance-helper");
 
-async function generateAuditReport(contractAddress) {
+const generateAuditReport = async (contractAddress) => {
   const helper = new ComplianceHelper(await ethers.getSigner());
   
   return {
     timestamp: new Date().toISOString(),
     contract: contractAddress,
-    complianceStatus: await helper.verifyContract(contractAddress),
-    violations: await helper.checkViolations(contractAddress),
-    carePoolStatus: await helper.getCarePoolStatus()
+    fractalCompliant: await helpers.isFractalCompliant(contractAddress),
+    violations: helpers.formatViolation(await helper.checkViolations(contractAddress)),
+    carePool: await helpers.getPoolDistribution(await helper.checker.carePools())
   };
-}
+};
 
 module.exports = { generateAuditReport };
