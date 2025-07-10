@@ -27,6 +27,7 @@ module.exports = {
     // Add other networks (Mainnet, Polygon, etc.) as needed
   },
   mocha: {
-    timeout: 60_000 // For slower fractal verification tests
-  }
+  timeout: 60000,
+  require: ["hardhat-waffle"] 
+}
 };
